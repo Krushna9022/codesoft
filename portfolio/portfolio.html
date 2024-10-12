@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio webpage</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./css/portfolio.css">
 </head>
+
 <body>
-    <div class="container">
+    <div class="container clearfix">
         <div class="header clearfix">
             <div class="logo">
                 <img src="./images/logo1.png">
@@ -20,13 +24,20 @@
                     <li><a href="#">About</a></li>
                     <li><a href="#">Service</a></li>
                     <li><a href="#">Work</a></li>
-                    <li><a href="#">home</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-            
+            <div class="git">
+                <button>
+                    <a href="https://github.com/Krushna9022"> <i class="fa-brands fa-github"></i> github <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </button>
+            </div>
+
+
         </div>
         <!-- banner start -->
-        <div class="banner clearfix">
+        <div class="banner clearfix" id="home">
             <div class="info">
                 <div class="social">
                     <ul>
@@ -45,15 +56,76 @@
         </div>
 
         <!-- Skill  Section start  -->
-         <div class="skill">
+        <div class="My-skill clearfix">
             <h2>My Skills</h2>
-            <input type="range" name="skill" id="" disabled>
-            <input type="range" name="skill" id="" disabled>
-            <input type="range" name="skill" id="" disabled>
-            <input type="range" name="skill" id="" disabled>
-            <input type="range" name="skill" id="" disabled>
-            <input type="range" name="skill" id="" disabled>
-         </div>
+            <div class="skill">
+                <h3>HTML-5</h3>
+                <input type="range" value="100" name="skill" id="" disabled>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <input type="range" value="70" name="skill" id="" disabled>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <input type="range" value="80" name="skill" id="" disabled>
+            </div>
+            <div class="skill">
+                <h3>Java</h3>
+                <input type="range" value="90" name="skill" id="" disabled>
+            </div>
+            <div class="skill">
+                <h3>MySql</h3>
+                <input type="range" value="60" name="skill" id="" disabled>
+            </div>
+            <div class="skill">
+                <h3>SpringBoot</h3>
+                <input type="range" value="90" name="skill" id="" disabled>
+            </div>
+        </div>
+        <!-- ________About_________ -->
+        <div class="about">
+            <h3>About Me</h3>
+            <div class="school">
+                <p>2017-2020</p>
+                <h4>Ssc-Hsc</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit itaque quaerat eos sequi iusto quo
+                    placeat saepe pariatur doloremque impedit et libero, dignissimos, error, ratione tenetur labore ut
+                    ab quisquam!</p>
+            </div>
+            <div class="school">
+                <p>2020-2024</p>
+                <h4>B.tech</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit itaque quaerat eos sequi iusto quo
+                    placeat saepe pariatur doloremque impedit et libero, dignissimos, error, ratione tenetur labore ut
+                    ab quisquam!</p>
+            </div>
+        </div>
+    
+    <!-- ________footer______ -->
+    <div class="footer">
+        <div class="social">
+            <ul>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+            </ul>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="home">home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        </div>
     </div>
+
+
+
 </body>
+
 </html>
